@@ -575,5 +575,12 @@ public function podrozdunajcemAction()
     {
     return $this->render('default/zima-miejska.html.twig');
     }
+     /**
+    * @Route("/Przemilczane_Strefy.html", name="Przemilczane_Strefy")
+    */
+    public function Przemilczane_StrefyAction()
+    {
+    return $this->render('default/Przemilczane_Strefy.html.twig');
+    }
 
 }
